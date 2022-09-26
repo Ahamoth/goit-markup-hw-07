@@ -1,0 +1,39 @@
+.footer {
+    color: var(--main-white);
+    text-decoration: none;
+    background: var(--footer-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer__text {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-white);
+}
+
+.adress-list :not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.adress-list__item {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.adress-list__item:hover,
+.adress-list__item:focus {
+    text-decoration: none;
+    color: var(--hover-font-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}

@@ -1,0 +1,50 @@
+.team__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+}
+
+.portfolio-works__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-font-color);
+    margin-bottom: 4px;
+    text-decoration: none;
+}
+
+.projects {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.portfolio-works__text {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: var(--secondary-font-color);
+    text-decoration: none;
+}
+
+.portfolio-works__conte {
+    padding: 20px 24px;
+    border-right: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.prod-link {
+    text-decoration: none;
+    position: relative;
+    display: block;
+}
+
+.portfolio-works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}

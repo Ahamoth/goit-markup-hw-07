@@ -1,0 +1,41 @@
+.features__title {
+    color: var(--main-font-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.features__text {
+    color: var(--secondary-font-color);
+    line-height: 24px;
+}
+
+.futures {
+    background: var(--main-white);
+    padding-top: 94px;
+}
+
+.section {
+    padding-bottom: 94px;
+}
+
+.features__icons {
+    padding: 25px 100px;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: var(--main-team);
+}
+
+.futures__list {
+    display: flex;
+    gap: 30px;
+}
+
+.features__item {
+    width: 270px;
+}
